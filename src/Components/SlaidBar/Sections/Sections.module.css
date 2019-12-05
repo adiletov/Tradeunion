@@ -1,0 +1,10 @@
+.sections{
+    border: 1px solid #cccccc;
+}
+.heading{
+    background: linear-gradient(135deg, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+    padding: 10px;
+    margin: 0px;
+    color: white;
+}
+

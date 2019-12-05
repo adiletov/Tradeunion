@@ -1,0 +1,16 @@
+.slaidBar{
+    width: 25%;
+    margin-right: 10px;
+}
+.boss{
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.boss_txt{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.footer{
+   padding: 10px 40px;
+    background: linear-gradient(135deg, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+    display: flex;
+}
+.address{
+    width: 25%;
+    color: white;
+}
+.address a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.icons{
+    width: 52%;
+    font-size: 40px;
+    color: red;
+    padding: 20px;
+}
+.icons a{
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 0px 2px;
+}
+
+.icons a img{
+    border-radius: 50%;
+    width: 40px;
+}

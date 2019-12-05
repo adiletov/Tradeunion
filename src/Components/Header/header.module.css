@@ -1,0 +1,85 @@
+.header{
+    padding: 15px 15px;
+    height: 35px;
+    background: linear-gradient(135deg, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+    display: flex;
+}
+.header div{
+    width: 20%;
+}
+.header div:nth-child(2){
+    width: 30%;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+.link:hover{
+    font-weight: bold;
+    color: #fff811;
+}
+.link:active{
+   color: #1000ff;
+}
+.btn{
+    outline: none;
+    width: 40px;
+}
+.kyr{
+    width: 50px;
+}
+.rus{
+    width: 45px;
+    margin-left: 5px;
+}
+.rus:hover{
+    width: 50px;
+}
+.kyr:hover{
+    width: 55px;
+}
+
+
+
+@media (max-width: 910px) {
+    .link{
+        font-size: 15px;
+    }
+    .link:hover{
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
+@media (max-width: 680px) {
+    .link{
+        font-size: 15px;
+    }
+    .link:hover{
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
+@media (max-width: 510px) {
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header div{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .link{
+        font-size: 15px;
+    }
+    .link:hover{
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
